@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridlayout1"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:columnCount="1"
+    android:rowCount="11"
+    android:background="#FFFFFF"
+    >
+
+    <TableRow
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        >
+
+        <TextView
+            android:id="@+id/m_text"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="立方米(m³)"
+            />
+        <EditText
+            android:id="@+id/m_edit"
+            android:layout_weight=".5"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        >
+
+        <TextView
+            android:id="@+id/dm_text"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="立方分米(dm³)"
+            />
+        <EditText
+            android:id="@+id/dm_edit"
+            android:layout_weight=".5"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        >
+
+        <TextView
+            android:id="@+id/cm_text"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="立方厘米(cm³)"
+            />
+        <EditText
+            android:id="@+id/cm_edit"
+            android:layout_weight=".5"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        >
+
+        <TextView
+            android:id="@+id/mm_text"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="立方毫米(mm³)"
+            />
+        <EditText
+            android:id="@+id/mm_edit"
+            android:layout_weight=".5"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        >
+
+        <TextView
+            android:id="@+id/l_text"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="升(L)"
+            />
+        <EditText
+            android:id="@+id/l_edit"
+            android:layout_weight=".5"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1"
+        >
+        <TextView
+            android:id="@+id/ml_text"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="毫升(mL)"
+            />
+        <EditText
+            android:id="@+id/ml_edit"
+            android:layout_weight=".5"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_row="6"
+        android:layout_rowWeight=".8"
+        android:layout_column="0"
+        android:layout_gravity="fill">
+
+        <Button
+            android:id="@+id/number7"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/number8"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/number9"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="9" />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_row="8"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight=".8"
+        >
+        <Button
+            android:id="@+id/number4"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="4"
+            />
+
+        <Button
+            android:id="@+id/number5"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="5"
+            />
+
+        <Button
+            android:id="@+id/number6"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="6"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_row="9"
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_rowWeight=".8"
+        >
+        <Button
+            android:id="@+id/number1"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="1"
+            />
+
+        <Button
+            android:id="@+id/number2"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="2"
+            />
+
+        <Button
+            android:id="@+id/number3"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="3"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_row="10"
+        android:layout_rowWeight=".8"
+        android:layout_column="0"
+        android:layout_gravity="fill">
+
+        <Button
+            android:id="@+id/number0"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/dot"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="." />
+
+        <Button
+            android:id="@+id/clean_all"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="C" />
+
+
+    </TableRow>
+
+
+
+</GridLayout>
+
+
+

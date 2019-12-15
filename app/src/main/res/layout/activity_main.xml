@@ -8,7 +8,6 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         >
     </androidx.appcompat.widget.Toolbar>
@@ -36,6 +35,13 @@
         android:layout_weight="1"
         android:text="科学计算器"
         />
+        <Button
+            android:id="@+id/jinzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="进制转换"
+            />
 
     </TableRow>
     <TableRow
@@ -49,19 +55,54 @@
         android:layout_columnWeight="1"
         >
         <Button
-            android:id="@+id/unit_conversion"
+            android:id="@+id/chang_du"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="单位换算"
+            android:text="长度转换"
             />
         <Button
-            android:id="@+id/jinzhi"
+            android:id="@+id/ti_ji"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="进制转换"
+            android:text="体积转换"
+            />
+        <Button
+            android:id="@+id/ri_qi"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="日期计算"
             />
     </TableRow>
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_gravity="fill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        >
+        <Button
+            android:id="@+id/hui_lv"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="实时汇率"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"/>
+    </TableRow>
+
+
 
 </GridLayout>

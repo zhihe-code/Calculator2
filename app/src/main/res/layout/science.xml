@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/gridlayout1"
+    android:id="@+id/gridlayout2"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:columnCount="1"
@@ -13,17 +13,15 @@
         android:layout_row="0"
         android:layout_column="0"
         android:layout_gravity="fill"
-        android:layout_rowWeight="4"
-        android:layout_height="0dp"
+        android:layout_rowWeight="20"
+        android:textSize="30dp"
         android:gravity="right"
         android:background="@null"
         android:singleLine="true"
-        android:textSize="60dp"
         android:textColor="#000000"
-        android:maxLength="100"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="15dp"
-        android:text=""
+        android:maxLength="100"
         />
     <TableRow
         android:layout_row="1"
@@ -57,6 +55,27 @@
         android:layout_gravity="fill"
         android:layout_rowWeight="1"
         >
+        <Button
+            android:id="@+id/lbracket"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="(" />
+
+        <Button
+            android:id="@+id/rbracket"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text=")"
+            />
+
+        <Button
+            android:id="@+id/square"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="x²"
+            android:textAllCaps="false"
+            />
+
 
         <Button
             android:id="@+id/allclear"
@@ -90,6 +109,30 @@
         android:layout_gravity="fill"
         android:layout_rowWeight="1"
         >
+
+        <Button
+            android:id="@+id/log"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="log"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/ln"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="ln"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/cube"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="x³"
+            android:textAllCaps="false"
+            />
         <Button
             android:id="@+id/number7"
             android:layout_weight="1"
@@ -124,6 +167,31 @@
         android:layout_rowWeight="1"
         >
         <Button
+            android:id="@+id/sin"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="sin"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/cos"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="cos"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/tan"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="tan"
+            android:textAllCaps="false"
+            />
+
+
+        <Button
             android:id="@+id/number4"
             android:layout_weight="1"
             android:layout_height="fill_parent"
@@ -157,6 +225,26 @@
         android:layout_rowWeight="1"
         >
         <Button
+            android:id="@+id/squareroot"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="√"
+            />
+
+        <Button
+            android:id="@+id/xncifang"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="xⁿ"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:id="@+id/tenncifang"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="10ⁿ"
+            />
+        <Button
             android:id="@+id/number1"
             android:layout_weight="1"
             android:layout_height="fill_parent"
@@ -189,6 +277,27 @@
         android:layout_gravity="fill"
         android:layout_rowWeight="1"
         >
+        <Button
+            android:id="@+id/e"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="e"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/PI"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="π"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:id="@+id/EE"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="EE"
+            />
         <Button
             android:id="@+id/precent"
             android:layout_weight="1"

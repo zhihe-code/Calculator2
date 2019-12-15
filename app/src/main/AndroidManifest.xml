@@ -9,9 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Normal"
-            android:screenOrientation="reversePortrait"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Huilv"></activity>
+        <activity android:name=".TimeCal" />
+        <activity android:name=".Volume" />
+        <activity
+            android:name=".Length"
+            android:label="@string/title_activity_length"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".JinZhi" />
+        <activity
+            android:name=".HistoryList"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Scientific"
+            android:launchMode="singleTask"
+            android:screenOrientation="reverseLandscape" />
+        <activity
+            android:name=".Normal"
+            android:launchMode="singleTask"
+            android:screenOrientation="reversePortrait" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
